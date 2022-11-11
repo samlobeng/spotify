@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;700&display=swap" rel="stylesheet">
+<script src="script.js" defer></script>
+</head>
+  <body id="main-body">
+    <div class="main-container">
+            <div class="left-nav d-flex flex-column justify-content-between">
+                <div class="menu-container">
+                   <img src="img/spotify-logo-white.png" class="img-fluid spotify-logo-white" alt="" srcset="">
+                   <div class="menus d-flex flex-column">
+                   <a href="#" class="d-block menu-item"><ion-icon name="home" class="pe-2"></ion-icon>Home</a>
+                   <a href="#" class="d-block menu-item"><ion-icon name="search" class="pe-2"></ion-icon>Search</a>
+                   <a href="#" class="d-block menu-item"><ion-icon name="library" class="pe-2"></ion-icon>Your Library</a>
+                   </div>
+                </div>
+                <div class="access-buttons d-flex flex-column gap-3 ms-4 me-4 mb-5">
+                    <a href="" class="btn btn-secondary">sign up</a>
+                    <a href="" class="btn btn-outline-secondary ">login</a>
+                    <div class="cookie m-auto">
+                        <p class="text-white">Cookie | Privacy</p>
+                        <p class="text-white">Policy</p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="main-content">
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container ">
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                        <ul class="navbar-nav gap-5">
+                          <li class="nav-item">
+                            <a class="nav-link active text-light fw-bolder" aria-current="page" href="#">TRENDING</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link text-light fw-bolder" href="#">PODCAST</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link text-light fw-bolder" href="#">MOODS AND GENRES</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link text-light fw-bolder" href="#">NEW RELEASES</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link text-light fw-bolder" href="#">DISCOVER</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
+
+                  <div class="container-fluid mt-5">
+                      <p class="text-light fw-bolder">#THROWBACKTHURSDAY</p>
+                      <div class="row g-0 text-start text-sm-center mb-5 ">
+                        <div class="col-12 col-md-4 col-lg-2 pe-1 mb-1">
+                            <img src="img/card1.jpeg" class="img-fluid" alt="" srcset="">
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-2 pe-1 mb-1">
+                            <img src="img/card2.jpeg" class="img-fluid" alt="" srcset="">
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-2 pe-1 mb-1">
+                            <img src="img/card3.jpeg" class="img-fluid" alt="" srcset="">
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-2 pe-1 mb-1">
+                            <img src="img/card4.jpeg" class="img-fluid" alt="" srcset="">
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-2 pe-1 mb-1">
+                            <img src="img/card5.jpeg" class="img-fluid" alt="" srcset="">
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-2 pe-1 mb-1">
+                            <img src="img/card6.jpeg" class="img-fluid" alt="" srcset="">
+                        </div>
+                    </div>
+
+                    <div class="row g-0">
+                        <p class="text-light fw-bolder">Classifiche</p>
+                        <div class="col-12 col-md-6 col-lg-2">
+                            <img src="img/top50.jpeg" class="img-fluid" alt="" srcset="">
+                            <p class="text-center text-light fw-bold pt-3 album-desc">Top 50 - Global</p>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-2">
+                            <img src="img/top50ar.jpeg" class="img-fluid" alt="" srcset="">
+                            <p class="text-center text-light fw-bold pt-3 album-desc">Top 50 - Argentina</p>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-2">
+                            <img src="img/viral50it.jpeg" class="img-fluid" alt="" srcset="">
+                            <p class="text-center text-light fw-bold pt-3 album-desc">Viral 50 - Italy</p>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-2">
+                            <img src="img/viral.jpeg" class="img-fluid" alt="" srcset="">
+                            <p class="text-center text-light fw-bold pt-3 album-desc">Viral 50 - Global</p>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                
+            </div>
+            <div class="container-fluid bg-black">
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1oBrkjfrjW8MzpsFWFTeTK?utm_source=generator&theme=0" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            </div>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+</html>
